@@ -56,8 +56,7 @@ const Home = () => {
               <button className="btn cancel-btn">Hire me</button>
             </Link>
             <a
-              href="/resume.pdf"
-              download={"Arun_Yadav_Resume"}
+              href="https://drive.google.com/file/d/1LaPULMJw9y2sZvtKMUSfFHNMmIDhuyZW/view?usp=drivesdk"
               className="btn confirm-btn">
               view Resume
             </a>
