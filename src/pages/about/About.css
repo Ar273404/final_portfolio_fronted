@@ -1,0 +1,164 @@
+/* #dark .about
+{  
+  color: blue;
+  
+} */
+ .about
+{
+    margin: 30px  20px;
+    margin-left: 250px;
+    padding: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.08), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.16), 0 8px 8px rgba(0,0,0,0.20);
+}
+
+.about-img img
+{
+    border-radius: 10px;
+    width: 100%;
+    height: 410px;
+}
+.about-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.about-content h1
+{
+   color: grey;
+   font-family: cursive;
+   font-weight: 700;
+   text-align: center;
+   border-bottom: 2px solid grey;
+}
+.about-content p
+{
+  text-align: justify;
+  font-family: 'Cherry Swash';
+} 
+
+
+/* ======== DARK MODE ========= */
+
+#dark .about {
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+#dark .about-content h1 {
+  color: #b0a4a4;
+  border-bottom: 2px solid #b0a4a4;
+}
+
+/* ================================ */
+.swing {
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -10px;
+    float: left;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+    margin-left: 35px;
+  }
+  .swing img {
+    border: 5px solid #f8f8f8;
+    display: block;
+  }
+  .swing:after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #999;
+    top: -10px;
+    left: 50%;
+    z-index: 0;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(45deg);
+  }
+  /* nail */
+  .swing:before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: -14px;
+    left: 51.8%;
+    z-index: 5;
+    border-radius: 50% 50%;
+    background: #000;
+  }
+  
+  @keyframes swing {
+    0% {
+      transform: rotate(3deg);
+    }
+    100% {
+      transform: rotate(-3deg);
+    }
+  }
+
+  @media (max-width: 600px) {
+  .about {
+    margin: 0;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .about-content h1 {
+    margin-top: 10px;
+  }
+  .swing {
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -10px;
+    float: right;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+    margin-left: 4px;
+  }
+  .about-img img
+{
+    border-radius: 10px;
+    width: 100%;
+    height: 400px;
+}
+}
+ @media screen and (max-width: 600px) and (min-width: 474px)
+{
+   .swing
+   {
+    margin-right: 50px;
+   }
+}
+@media screen and (max-width: 650px) and (min-width: 600px)
+{
+   .swing
+   {
+    margin-right: 50px;
+   }
+    .about
+{
+    margin-left: 15px;
+    padding: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.08), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.16), 0 8px 8px rgba(0,0,0,0.20);
+}
+
+.about-img img
+{
+    border-radius: 10px;
+    width: 100%;
+    height: 410px;
+}
+.about-content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+}
