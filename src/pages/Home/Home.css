@@ -7,7 +7,7 @@
   height: 300px;
   color: white;
   padding-left: 90px;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 .home-content h2
 {
@@ -59,6 +59,13 @@
     font-size: 24px;
     font-weight: 800;
     font-family: 'Cherry Swash';
+}
+}
+@media (min-width:1100px)
+{
+  .home-container
+{
+  margin-left: 90px;
 }
 }
 
