@@ -49,7 +49,7 @@ const Contact = () => {
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={{ duration: 0.5 }}>
-        Technologies Stack
+        Contact With Us
       </motion.h2>
       <div className="line"></div>
       <div className="card card0 border-0">
@@ -75,7 +75,7 @@ const Contact = () => {
               <div className="row">
                 <h6>
                   <div className="social-icons">
-                    Check Link👉👉
+                    Check Link👉
                     <a href="https://www.linkedin.com/in/arun273404/">
                       <BsLinkedin color="blue" size={30} />
                     </a>

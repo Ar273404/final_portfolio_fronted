@@ -39,6 +39,11 @@
   text-align: justify;
   font-family: 'Cherry Swash';
 } 
+.about-content p span
+{
+  color:blue;
+  cursor: pointer;
+} 
 
 
 /* ======== DARK MODE ========= */
@@ -59,7 +64,7 @@
     transform-origin: center -10px;
     float: left;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 35px;
   }
   .swing img {
