@@ -7,7 +7,7 @@ const projects = [
     title: "Hospital Management",
     description:
       "👉 hospital management system with appointment booking, admin panel, and appointment display. Demo: Admin email: admin@gmail.com, Password: 12345.",
-    details: ["Mongodb", "Express", "React js", "Node Js"],
+    details: ["Mongodb", "Express", "React", "Node Js"],
     imgSrc:
       "https://a.storyblok.com/f/86602/965x541/f99b8b2b37/hospital-management-system-sm-01.png",
     link: "https://hospital-management-frontend-bp5y.onrender.com/",
@@ -19,7 +19,7 @@ const projects = [
     description:
       "👉 Built a full-stack job site for posting jobs, reviewing applications, managing details, with secure data, real-time updates, and a responsive UI. ",
     badge: "Mern stack",
-    details: ["Mongodb", "Express", "React js", "Node Js"],
+    details: ["Mongodb", "Express", "React", "Node Js"],
     imgSrc:
       "https://img.freepik.com/premium-photo/online-job-search-modish-website-worker-search-job-opportunities_31965-80700.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1722124800&semt=ais_user",
     link: "https://arun-job-seeker.netlify.app/",
@@ -31,7 +31,7 @@ const projects = [
     description:
       "👉 Developed a food delivery website with user authentication, responsive design, admin dashboard for orders and restaurants, and payment options.",
     badge: "Mern stack",
-    details: ["Mongodb", "Express", "React js", "Node Js"],
+    details: ["Mongodb", "Express", "React", "Node Js"],
     imgSrc:
       "https://www.pngitem.com/pimgs/m/69-694009_transparent-food-delivery-clipart-pizza-free-home-delivery.png",
     link: "https://finalfoodfronted.onrender.com",
@@ -106,7 +106,7 @@ const Project = () => {
                     <div>
                       {projects.details.map((item) => {
                         return (
-                          <span className="card-detail-badge ml-2">{item}</span>
+                          <span className="card-detail-badge ml-1">{item}</span>
                         );
                       })}
                     </div>
@@ -170,33 +170,6 @@ const Project = () => {
           })}
         </div>
       </div>
-      {/* <div className="row" id="ads">
-        {projects.map((project) => (
-          <div className="col-md-4" key={project.id}>
-            <div className="card rounded">
-              <div className="card-image">
-                <span className="card-notify-badge">{project.badge}</span>
-                <img src={project.imgSrc} alt={project.title} />
-              </div>
-              <div className="card-image-overly m-auto mt-3">
-                {project.details.map((detail, index) => (
-                  <span className="card-detail-badge" key={index}>
-                    {detail}
-                  </span>
-                ))}
-              </div>
-              <div className="card-body text-center">
-                <div className="ad-title m-auto">
-                  <h5 className="text-uppercase">{project.title}</h5>
-                </div>
-                <a className="ad-btn" href={project.link}>
-                  View
-                </a>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div> */}
     </div>
   );
 };
