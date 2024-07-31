@@ -45,8 +45,8 @@ const projects = [
     details: ["Html", "Css", "Javascript"],
     imgSrc:
       "https://thumbs.dreamstime.com/b/blood-groups-donor-recipients-type-compatibility-possible-combinations-donation-match-arrows-show-which-can-be-used-311979870.jpg",
-    link: " https://ar273404.github.io/bloodmatch.git.io/",
-    gitl: "https://github.com/Ar273404/bloodmatch.git.io",
+    link: "https://ar273404.github.io/blood-matcher/",
+    gitl: "https://github.com/Ar273404/blood-matcher",
   },
   {
     id: 5,
