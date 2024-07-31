@@ -8,14 +8,16 @@
 }
 
 .work-exp h2 {
-  font-weight: bold;
-  color: #1e1e2c;
+  font-weight: 700;
+  color: #138781;
+  font-size:large;
+  font-family: cursive;
  
 }
 
 .work-exp hr{
   color: #138781;
-  height: 2px;
+  height: 4px;
   width: 400px;
   margin: 10px auto;
 }

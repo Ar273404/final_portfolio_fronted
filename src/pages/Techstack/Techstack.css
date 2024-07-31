@@ -9,8 +9,10 @@
 }
 .techstack h2
 {
-  font-weight: 700;
+ font-weight: 700;
   color: #138781;
+  font-size:large;
+  font-family: cursive;
 }
 .techstack .card
 {

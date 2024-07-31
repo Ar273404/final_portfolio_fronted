@@ -13,8 +13,10 @@
 }
 
 .project h2 {
-  font-weight: bold;
+ font-weight: 700;
   color: #138781;
+  font-size:large;
+  font-family: cursive;
 }
 
 #ads {
