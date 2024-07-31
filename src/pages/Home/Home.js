@@ -56,7 +56,7 @@ const Home = () => {
               <button className="btn cancel-btn">Hire me</button>
             </Link>
             <a
-              href="https://drive.google.com/file/d/1LaPULMJw9y2sZvtKMUSfFHNMmIDhuyZW/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1MD80DCpILohn9hlIF0CiVqzhuTsBY47M/view?usp=drivesdk"
               className="btn confirm-btn">
               view Resume
             </a>
