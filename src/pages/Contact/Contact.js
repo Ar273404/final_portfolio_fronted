@@ -82,7 +82,7 @@ const Contact = () => {
                     <a href="https://github.com/Ar273404">
                       <BsGithub color="blue" size={30} />
                     </a>
-                    <a href="https://www.codechef.com/users/ar2734">
+                    <a href="https://www.codechef.com/users/ar0806">
                       <SiCodechef color="blue" size={30} />
                     </a>
                     <a href="https://leetcode.com/u/Arun_0806/">
