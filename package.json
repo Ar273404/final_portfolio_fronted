@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.2",
     "framer-motion": "^11.3.2",
+    "nodemailer": "^6.9.14",
     "react": "^18.3.1",
     "react-awesome-reveal": "^4.2.12",
     "react-dom": "^18.3.1",
@@ -26,7 +27,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-
   "eslintConfig": {
     "extends": [
       "react-app",

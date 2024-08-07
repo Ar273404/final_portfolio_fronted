@@ -67,7 +67,7 @@ const projects = [
     details: ["Html", "Css", "Javascript"],
     imgSrc:
       "https://thumbs.dreamstime.com/z/quiz-background-colorful-brushstrokes-oil-acrylic-paint-inscription-text-gradient-brush-isolated-white-184770923.jpg",
-    link: "https://ar273404.github.io/Quiz/",
+    link: " https://ar273404.github.io/Quiz.git.io/",
     gitl: "https://github.com/Ar273404/Quiz",
   },
 ];
@@ -119,13 +119,13 @@ const Project = () => {
                         Live
                       </button>
                     </a>
-                    <a href={projects.gitl}>
+                    {/* <a href={projects.gitl}>
                       <button
                         type="button"
                         class="px-3 py-2 rounded-full text-white text-sm tracking-wider font-medium border border-current outline-none bg-purple-700 hover:bg-purple-800 active:bg-purple-700">
                         GitHub
                       </button>
-                    </a>
+                    </a> */}
                   </div>
                   {/* <div class="flex justify-center space-x-1 mt-4">
                     <svg
