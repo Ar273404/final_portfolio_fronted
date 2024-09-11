@@ -40,10 +40,10 @@ const Education = () => {
                   <span className="col-1">Branch:</span> Computer Science
                 </p>
                 <p>
-                  <span className="col-1">Current Year:</span> 3rd year
+                  <span className="col-1">Current Year:</span> Final(4th) Year
                 </p>
                 <p>
-                  <span className="col-1">Current Cgpa:</span> 7.52 cgpa
+                  <span className="col-1">Current Cgpa:</span> 7.6 cgpa
                 </p>
               </div>
             </VerticalTimelineElement>
