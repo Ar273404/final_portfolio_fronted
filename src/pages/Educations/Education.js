@@ -28,9 +28,9 @@ const Education = () => {
               iconStyle={{ background: "blue", color: "#fff" }}
               icon={<FaUserGraduate />}>
               <div className="bo">
-                <h3 className="vertical-timeline-element-title col-1">Btech</h3>
+                <h3 className="vertical-timeline-element-title col-1">Btech(Graduation)</h3>
                 <p>
-                  <span className="col-1">collage:</span> Mmmut Gorakhpur
+                  <span className="col-1">Collage:</span> Mmmut Gorakhpur
                 </p>
                 <p>
                   <span className="col-1">Address:</span> Gorakhpur-Deoria road
